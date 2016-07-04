@@ -370,14 +370,14 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     color:#000000;
     font-weight: 600;
     position: absolute;
-    left:.1rem;
+    left:5%;
     top:0;
     opacity:0;
 }
 .Personal-quote .english{
     width:100%;
     color:#000000;
-    margin:0.5rem 0  0 0.3rem;
+    margin:0.5rem 0  0 1rem;
     font-size: 0.2rem;
     opacity:0;
 }
