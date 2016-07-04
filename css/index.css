@@ -365,6 +365,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     top:45%;
 }
 .Personal-quote .zh{
+    width:100%;
     font-size: 0.35rem;
     color:#000000;
     font-weight: 600;
@@ -374,6 +375,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     opacity:0;
 }
 .Personal-quote .english{
+    width:100%;
     color:#000000;
     margin:0.5rem 0  0 0.3rem;
     font-size: 0.2rem;
