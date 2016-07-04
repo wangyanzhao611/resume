@@ -137,7 +137,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     line-height: 0.5rem;
     text-align: center;
     position: absolute;
-    top:1.5rem;
+    top:12%;
     left:0;
     color:lightsalmon;
     opacity:0;
@@ -146,7 +146,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     position: absolute;
     width:3rem;
     left:25%;
-    top:20%;
+    top:22%;
     opacity: 0;
 }
 .desc{
@@ -360,6 +360,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
 }
 .Personal-quote{
     position: absolute;
+    width:100%;
     left:0;
     top:45%;
 }
