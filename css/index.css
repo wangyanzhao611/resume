@@ -39,8 +39,8 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     width:2.5rem;
     height:1rem;
     background:url(../img/finger_line.png) no-repeat -1.2rem -0.5rem;
-    top:6.5rem;
-    left:2rem;
+    top:60%;
+    left:32%;
     display:none;
 }
 .finger-line-move{
@@ -218,7 +218,6 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
 }
 .classify .bg{
     background:rgba(255, 82, 184, 0.1);
-    opacity:0;
 }
 .desc{
     position: absolute;
@@ -236,7 +235,9 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     background:url(../img/11.jpg) no-repeat;
     background-size:cover;
 }
-
+.page2 .des{
+    opacity: 0;
+}
 .page3 .box{
     width:100%;
     height:7rem;
@@ -314,9 +315,6 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     background-size:cover;
     position: relative;
 }
-.swiper-slide.page4 desc{
-    opacity:0;
-}
 .page4>img{
     position: absolute;
     top:0.5rem;
@@ -390,7 +388,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     background:url(../img/ewm.jpg) no-repeat;
     background-size: cover;
     position: absolute;
-    top:20%;
+    top:15%;
     left:28%;
 }
 .page6 .font{
@@ -760,7 +758,6 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
 
 @-webkit-keyframes bounceInLeft {
     from, 60%, 75%, 90%, to {
-        opacity:1;
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
@@ -788,15 +785,14 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     }
 
     to {
-
         -webkit-transform: none;
         transform: none;
+        opacity: 1;
     }
 }
 
 @keyframes bounceInLeft {
     from, 60%, 75%, 90%, to {
-        opacity:1;
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
@@ -824,9 +820,9 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     }
 
     to {
-
         -webkit-transform: none;
         transform: none;
+        opacity: 1;
     }
 }
 @-webkit-keyframes flipInY {
@@ -859,6 +855,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     to {
         -webkit-transform: perspective(400px);
         transform: perspective(400px);
+        opacity:1;
     }
 }
 
@@ -892,6 +889,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     to {
         -webkit-transform: perspective(400px);
         transform: perspective(400px);
+        opacity:1;
     }
 }
 @-webkit-keyframes myMove{
@@ -1371,3 +1369,4 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
         opacity:1;
     }
 }
+
